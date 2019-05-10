@@ -17,6 +17,4 @@ RUN chmod 777 pymote_env/bin/activate
 
 RUN pymote_env/bin/activate
 
-RUN pip3 install -r /usr/src/app/requirement.txt
-
 CMD python /usr/src/app/Addition/AdditionTwoNumber.py
